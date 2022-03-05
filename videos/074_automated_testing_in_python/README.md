@@ -1,1 +1,0 @@
-The code for this video is hosted in a separate repository: https://github.com/mCodingLLC/SlapThatLikeButton-TestingStarterProject

@@ -265,7 +265,44 @@ def main():
     overload_dict_usage()
     overloaded_class_example()
     time_performance()
+    print("sua mae")
 
 
 if __name__ == '__main__':
     main()
+
+class override(metaclass=OverloadMeta):
+    pass
+class teste (override):
+    def __init__(self , a :str  ) -> None:
+        # super(teste , self ).__init__()
+        self.a = a
+    
+    @overload
+    def func(self , a : int , b : int ):
+        print("Entraram INTs")
+        return a + b
+    @overload
+    def func(self , a:float , b : float , c):
+        print("Entraram Floats")
+        return a + b
+    @overload
+    def func(self , a , b  , c):
+        print("Entraram No Diferentão")
+        return a + b
+class teste2(teste):
+    def __init__(self, a: str) -> None:
+        super(teste2 , self ).__init__(a)
+    
+    @overload
+    def func(self , a :str , b :str) :
+        print("Só as Strings")
+
+print("Sua mãe aquela")
+tt = teste("oi")
+tt2 = teste2("olá")
+
+tt.func(2.,4. , 5)
+tt2.func(2.,4. , 5) 
+tt2.func("2.","4." , 6 )
+print(tt2.a)

@@ -1,1 +1,0 @@
-This example project is hosted here: https://github.com/mCodingLLC/pre-commit-example-project
