@@ -1,5 +1,4 @@
-from overloading import override , Overload
-from overloading.overloading import overload
+from overloading.overloading import overload,override
 
 class yourClass(override):
     def __init__(self , yourArgs ) -> None:
