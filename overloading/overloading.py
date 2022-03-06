@@ -265,7 +265,6 @@ def main():
     overload_dict_usage()
     overloaded_class_example()
     time_performance()
-    print("sua mae")
 
 
 if __name__ == '__main__':
@@ -298,11 +297,3 @@ class teste2(teste):
     def func(self , a :str , b :str) :
         print("Só as Strings")
 
-print("Sua mãe aquela")
-tt = teste("oi")
-tt2 = teste2("olá")
-
-tt.func(2.,4. , 5)
-tt2.func(2.,4. , 5) 
-tt2.func("2.","4." , 6 )
-print(tt2.a)
