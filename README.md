@@ -1,4 +1,4 @@
-### O projeto original foi modificado para se tornar uma forma facilitada de fazer o python permitir realizar sobrecarga de métodos em uma classe.
+### O projeto original foi modificado para se tornar uma forma facilitada de fazer o python permitir realização de sobrecarga de métodos em uma classe.
 
 Os links do criador original : 
 
