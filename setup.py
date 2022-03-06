@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setup(
     name = "overloading",
-    version = "1.0",
+    version = "1.0.1",
     url = "https://github.com/toinnn/Python_Overloading",
     packages = find_packages() ,
     license = "LICENSE",
